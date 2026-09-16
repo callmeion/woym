@@ -4,15 +4,16 @@
 //            > Your apps > SDK setup and configuration > Config
 // ดูขั้นตอนแบบละเอียดใน README.md หัวข้อ "ตั้งค่า Firebase"
 // =====================================================================
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
+  const firebaseConfig = {
+    apiKey: "AIzaSyA9z2RE5ImykunEOHFPVFM-618WkGGmwlg",
+    authDomain: "nsl-activity-voting.firebaseapp.com",
+    databaseURL: "https://nsl-activity-voting-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "nsl-activity-voting",
+    storageBucket: "nsl-activity-voting.firebasestorage.app",
+    messagingSenderId: "530052638131",
+    appId: "1:530052638131:web:25f65a85aeef302bfcd7c6"
+  };
+
 
 // เริ่มต้น Firebase (ป้องกันการ init ซ้ำถ้าถูกโหลดมากกว่าหนึ่งครั้ง)
 if (!firebase.apps.length) {
